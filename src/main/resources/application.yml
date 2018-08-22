@@ -1,0 +1,14 @@
+spring:
+  application: api-gateway
+  cloud:
+    config:
+      # 配置文件名称
+      name: client-ss
+      # 配置文件版本
+      profile: dev
+      # 配置文件分支
+      label: master
+      # 配置服务器地址端口
+      uri: http://127.0.0.1:7001
+
+
